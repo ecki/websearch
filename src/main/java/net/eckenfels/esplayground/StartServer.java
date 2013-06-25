@@ -25,9 +25,7 @@ import org.elasticsearch.search.facet.datehistogram.DateHistogramFacet;
 import org.elasticsearch.search.facet.terms.TermsFacet;
 import org.elasticsearch.search.highlight.HighlightField;
 
-import com.google.gwt.user.client.ui.RadioButton;
 import com.vaadin.shared.ui.label.ContentMode;
-import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.OptionGroup;
 import com.vaadin.ui.VerticalLayout;
