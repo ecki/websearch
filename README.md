@@ -17,6 +17,12 @@ This Maven project currently builds a WAR file containing Vaadin and ElasticSear
 I tried it successfully on JBoss WildFly AS8 Alpha. It does no proper life-cycle.
 It will set up a single local ES node with no Index Optimizations set.
 
+You can preview the app in the build in Jetty by using:
+
+    > mvn jetty:run
+    
+Currently you need to search for "Title1" and use the Search Button (enter does not work).
+
 Bernd
 
 - http://elasticsearch.org
